@@ -13,15 +13,11 @@
 ## Developer Imports: how to run or build from source
 ### Debug Mode
 + create a link (name: DEBUG32) to debug.bat: edit link, set target:
-+ ```X:\????\ovpn-client\debug.bat 32``` and run link as admin!
-+ for Debug Mode with more debug messages set target:
-+ ```X:\????\ovpn-client\debug.bat 32 DEVMODE```
++ ```X:\????\debug.bat 32``` and run link as admin!
 
 ### Build Mode
-+ create a link (name: BUILD32) to build_inno.bat: edit link, set target:
-+ ```'X:\????\ovpn-client\build_inno.bat 32``` and run link normally!
++ create a link (name: BUILD32) to build.bat: edit link, set target:
++ ```'X:\????\build.bat 32``` and run link normally!
 + same for 64 bits and do NOT run any of the *.bat files directly!
 + edit ```set_dirs.bat``` to your needs!
-+ Update VERSION only in file: ```release_version.py```
-+ Set SIGN in ```release_version.py``` to False for unsigned inno compile
 
